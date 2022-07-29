@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo Seletivo - Netuno</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./Assets_Netuno/assets/logo.png" alt="logo_netuno">
+            <ul>
+                <li><a href="#" target="_blank">O Projeto</a></li>
+                <li><a href="#" target="_blank">O Problema</a></li>
+                <li><a href="#" target="_blank">Sua Jornada</a></li>
+                <li><a href="#" target="_blank">Objetivos</a></li>
+            </ul>
+            <button id="buttonNav"><a href="https://fasters.com.br" target="_blank">Processo Seletivo</a></button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="form">
+            
+            <div id="bannerImage">
+                <img src="./Assets_Netuno/bannertopo.png" alt="imagem_formulário" id="formImg">
+            </div>
+            <form id="formContent">
+                <section id="dadosCadastro">
+                    <h2 id="h2">Formulário de Cadastro</h2>
+                    <p id="p">Preencha seus dados</p>
+                    <div class="divName">
+                        <span><img src="./Assets_Netuno/icones/user.png" class="img"></img></span>
+                        <input type="text" name="name" id="name" placeholder="Nome Completo*" aria-placeholder="Nome Completo" required>
+                    </div>
+                    <div class="divEmail">
+                        <span><img src="./Assets_Netuno/icones/mail.png" class="img"></img></span>
+                        <input type="email" name="email" id="email" placeholder="E-mail*" aria-placeholder="E-mail" required>
+                    </div>
+                    <div class="divState">
+                        <span><img src="./Assets_Netuno/icones/state.png" class="img"></img></span>
+                        <select name="states" id="states" required placeholder="*">
+                            <option value="" disabled selected>--- Estado* ---</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </div>
+                </section>
+                <section id="conhecimentoProg">
+                    <p>Conhecimento de Programação*</p>
+                    <label>
+                        <input type="checkbox" name="prog" id="html"> HTML
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="css"> CSS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="js"> JavaScript
+                    </label>
+
+                    <label>
+                        <input type="checkbox" name="prog" id="php"> PHP
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="dotNet"> .NET
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="vjs"> Vue.JS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="rjs"> ReactJS
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="rn"> React Native
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="node"> Node
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="phyton"> Phyton
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="flutter"> Flutter
+                    </label>
+                    <label>
+                        <input type="checkbox" name="prog" id="others"> Others
+                    </label>
+                </section>
+                <section id="workedProgramming">
+                    <p>Já trabalhou com Programação?</p>
+                    <label>
+                        <input type="checkbox" name="wrkdPgmng" id="no"> Não
+                    </label>
+                    
+                    <label>
+                        <input type="checkbox" name="wrkdPgmng" id="yes"> Sim
+                    </label>
+                </section>
+                <hr>
+                <p id="requiredField">(*) Campos Obrigatórios</p>
+                <section id="sendForm">
+                    <a href="https://fasters.com.br" target="_blank"><button type="submit" name="send" value="click">Enviar</button></a>
+                    <p>Ao clicar em aviar, você concorda com todos os termos de uso de dados descritos em <spam>políticas de privacidade</spam></p>
+                </section>
+            </form>
+        </section>   
+        
+        <section class="project">
+            <div id="projectImagesGradient">
+                <img src="./Assets_Netuno/Elements/Vector1.png" alt="">
+                <img src="./Assets_Netuno/dev.png" alt="imagem__projeto" id="imageProject">
+                <img src="./Assets_Netuno/Elements/Vector1.png" alt="">
+            </div>
+            
+            <div id="textProject">
+                <h2>O Projeto</h2>
+                <br>
+                <p>Com o “novo normal” causado pela pandemia dos últimos anos, mais empresas no mundo todo têm aberto oportunidades no modelo Home Office.
+                    Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países.</p>
+                <br>    
+                <p id="strong">O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.</p>
+            </div>
+        </section>
+
+        <section id="problem">
+            <img src="./Assets_Netuno/Container2.png" alt="" id="problemImg">
+            <div>
+                <h2 id="title">O Problema</h2>
+                <p class="space"><spam id="subtitle">Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</spam></p>
+                <hr>
+                <p class="space">Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI.</p>
+                <br>
+                <p class="space"><spam>Um dos principais fatores dessa falta de profissionais é o êxodo de profissionais para o exterior.</spam></p>
+            </div>
+
+            <section id="topicsProblem">
+                <div class="topics">
+                    <p class="number">1</p>
+                    <h2>Oportunidade</h2>
+                    <p class="contentProblem">Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.
+                    </p>
+                </div>
+                <div class="topics">
+                    <p class="number">2</p>
+                    <h2>Comunidade</h2>
+                    <p class="contentProblem">Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluída e eficiente.
+                    </p>
+                </div>
+                <div class="topics">
+                    <p class="number">3</p>
+                    <h2>Experiência Real</h2>
+                    <p class="contentProblem">Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não o pode fazer.
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <section id="yourJourney">
+            <div>
+                <img src="./Assets_Netuno/Elements/Vector2.png" id="rotateRow1" alt="" class="yourJourneyImageH2"><h2 class="yourJourneyImageH2"v id="yourJourneyH2">Sua Jornada</h2><img class="yourJourneyImageH2" src="./Assets_Netuno/Elements/Vector2.png" alt="">
+            </div>
+            <section id="steps">
+                <div class="stepsContents">
+                    <div class="imgSteps">
+                        <img src="./Assets_Netuno/icones/calendario.png" alt="calendario">
+                    </div> 
+                    <div class="stepText">
+                        <p>Programas de 4 meses de duração, sendo 6 horas/dia.</p>
+                    </div>
+                </div>
+                <div class="stepsContents">
+                    <div class="imgSteps">
+                        <img src="./Assets_Netuno/icones/medalha.png" alt="medalha">
+                    </div> 
+                    <div class="stepText">
+                        <p>Do Zero ao Júnior Promissor em 4 meses.</p>
+                    </div>
+                </div>
+                <div class="stepsContents">
+                    <div class="imgSteps">
+                        <img src="./Assets_Netuno/icones/relogio.png" alt="relogio">
+                    </div> 
+                    <div class="stepText">
+                        <p>640 horas de aplicação prática dos conceitos.</p>
+                    </div>
+                </div>
+                <div class="stepsContents">
+                    <div class="imgSteps">
+                        <img src="./Assets_Netuno/icones/home.png" alt="home">
+                    </div> 
+                    <div class="stepText">
+                        <p>Mentoria indivudual e coletiva em padrão ágil.</p>
+                    </div>
+                </div>
+                <div class="stepsContents">
+                    <div class="imgSteps">
+                        <img src="./Assets_Netuno/icones/group.png" alt="group">
+                    </div> 
+                    <div class="stepText">
+                        <p>100% Home Office com platafomas de cursos online</p>
+                    </div>
+                </div>
+                <div class="stepsContents">
+                    <div class="imgSteps">
+                        <img src="./Assets_Netuno/icones/target.png" alt="target">
+                    </div> 
+                    <div class="stepText">
+                        <p>Variedade de áreas dentro da tecnologia</p>
+                    </div>
+                </div>
+
+                <div>
+                    <button id="buttonSingIn" type="submit"><a href="https://fasters.com.br" target="_blank">Quero me cadastrar para o <spam> Processo Seletivo</spam></a><img src="./Assets_Netuno/icones/enter.png" alt="enter" id="buttonIMGEnter"></button>
+                    <img src="./Assets_Netuno/Elements/Vector1.png" id="buttonSingInIMG" alt="vetor1">
+                </div>
+            </section>
+        </section>
+
+        <section id="targets">
+            <h2>Objetivos</h2>
+            <section id="targetsContent">
+                <div id="otimizar" class="topicsTarget">
+                    <h3>Otimizar</h3>
+                    <p>Otimizar todo o processo de contratação chegando a contribuir com uma economia de 40% no processo de recrutamento.</p>
+                    <p></p>
+                </div>
+                <div id="gerar" class="topicsTarget">
+                    <h3>Gerar</h3>
+                    <p>Gerar novas oportunidades de carreira para pessoas interessadas em ingressar ou migrar de outras áreas que esteja descontente.</p>
+                </div>
+                <div id="filtrar" class="topicsTarget">
+                    <h3>Filtrar</h3>
+                    <p>Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócio.</p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div id="logo_medias">
+            <img src="./Assets_Netuno/assets/logo+slogan.png" alt="" id="logo">
+            <div class="socialMedias">
+                <img src="./Assets_Netuno/icones/fb.png" alt="">
+                <img src="./Assets_Netuno/icones/ig.png" alt="">
+                <img src="./Assets_Netuno/icones/in.png" alt="">
+                <p>Netuno© 2022 - Todos os direitos reservados</p>
+            </div>
+        </div>
+        <div id="button">
+            <button type="submit" id="buttonFooter"><a href="https://fasters.com.br" target="_blank">Processo Seletivo</a></button>
+        </div>
+        <div id="importantsLinks">
+            <ul>
+                <li><a href="#">O Projeto</a></li>
+                <li><a href="#">O Problema</a></li>
+                <li><a href="#">Sua Jornada</a></li>
+                <li><a href="#">Objetivos</a></li>
+            </ul>
+        </div>
+        <div id="rowSeparation"></div>
+        <div id="contact">
+            <h3>Contato</h3>
+            <p class="pContact">11 91234.5678</p>
+            <p class="pContact">contato@netuno.com.br</p>
+        </div>
+    </footer>
+</body>
+</html>

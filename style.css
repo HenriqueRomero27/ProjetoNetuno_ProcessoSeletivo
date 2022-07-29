@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #1A7FBD;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    padding-right: 51px;
+}
+
+header > nav > ul > li:nth-child(1) {
+    padding-left: 50px;
+}
+
+header > nav > img {
+    width: 170px;
+    margin-right: 97px;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+header > nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header > nav > button {
+    color: white;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 5%;
+    font-weight: bold;
+}
+
+#bannerImage {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+}
+
+form {
+    width: 410px;
+    margin-top: 100px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 15px;
+    border: 1px solid #58C5E6;
+    border-radius: 12px;
+}
+
+#form {
+    order: 0;
+    border-radius: 10px;
+}
+
+#formImg {
+    width: 745px;
+    order: 1;
+    display: flex;
+    flex: 1;
+}
+
+#dadosCadastro {
+    background-color: #fff;
+    padding-bottom: 35px;
+}
+
+#dadosCadastro p {
+    color: #1A7FBD;
+}
+
+#form h2 {
+    font-size: 20px;
+    padding: 10px 0 10px;
+    color: #cecece;
+}
+
+#form p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#form #p, #h2 {
+    margin-left: 40px;
+}
+
+form input[type=text], input[type=email], select {
+    display: block;
+    height: 40px;
+    width: 360px;
+    margin: 10px 0 10px 20px;
+    font-family: 'Noto Sans', sans-serif;
+    border: 0;
+    color: #1A7FBD;
+}
+
+.divName, .divEmail, .divState {
+    height: 50px;
+    width: 370px;
+    padding: 15px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex: 1 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 13px;
+}
+
+#conhecimentoProg, #workedProgramming {
+    font-size: 14px;
+    color: #fff;
+    background-color: #1A7FBD;
+    padding-bottom: 10px;
+}
+
+#conhecimentoProg input {
+    border: 0;
+    margin-left: 15px;
+}
+
+#workedProgramming {
+    background-color: #fff;
+    color: #1A7FBD;
+}
+
+#workedProgramming label, #workedProgramming input {
+    color: #ccc;
+    margin-left: 10px;
+}
+
+label {
+    font-size: 14px;
+    padding-right: 23px;
+}
+
+hr {
+    margin: 20px;
+}
+
+#requiredField {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #1A7FBD;
+}
+
+#sendForm button {
+    padding: 10px 100px;
+    margin-left: 90px;
+    background-color: #1A7FBD;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#sendForm a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#sendForm a:hover {
+    color: #1A7FBD;
+}
+
+#sendForm button:hover {
+    background-color: #fff;
+    color: #1A7FBD;
+    border: 1px solid #1A7FBD;
+}
+
+#sendForm {
+    margin-top: 20px;
+    padding-bottom: 15px;
+}
+
+#sendForm > p {
+    margin: 20px 20px 0 20px;
+    font-size: 10px;
+}
+
+#conhecimentoProg p, #workedProgramming p {
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+spam {
+    cursor: pointer;
+    font-weight: 500;
+    color: #1A7FBD;
+}
+
+#textProject {
+    width: 405px;
+    color: #fff;
+    margin-right: 70px;
+}
+
+.project {
+    display: flex;
+    padding-bottom: 15px;
+    padding-top: 20px;
+}
+
+.project h2 {
+    font-size: 40px;
+    color: #A4DCFF;
+}
+
+#strong {
+    font-weight: bold;
+}
+
+#imageProject {
+    width: 515px;
+}
+
+#projectImagesGradient {
+    background: radial-gradient(50% 50% at 50% 50%, #54B1EA 0%, rgba(84, 177, 234, 0) 100%);
+}
+
+#problem {
+    display: flex;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+    padding: 100px;
+    flex: 1;
+}
+
+#problem img {
+    display: inline-block;
+    width: 540px;
+}
+
+#title {
+    font-size: 40px;
+    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #6CBFF2 100.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+#problem div {
+    width: 400px;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+#problem spam {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    cursor: default;
+}
+
+p #subtitle {
+    font-size: 20px;
+}
+
+#topicsProblem {
+    position: absolute;
+    display: inline-flex;
+    margin-top: 620px;
+    box-shadow: 1px 9px 20px 0px #b8b7b7;
+}
+
+.topics {
+    width: 310px;
+    height: 230px;
+    background-color: #fbfbfb;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.topics h2 {
+    color: #000;
+    display: inline-flex;
+    padding-top: 32px;
+    position: absolute;
+    padding-left: 110px;
+}
+
+.topics .number {
+    position: absolute;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 96px;  
+    letter-spacing: -0.1em;
+    display: inline-flex;
+    color: #fbfbfb;
+    padding-left: 160px;
+    text-shadow: 0px 0px 4px #cacaca;
+}
+
+.contentProblem {
+    font-size: 16px;
+    padding-left: 15px;
+    padding-top: 90px;
+    line-height: 19px;
+    width: 382px;
+    position: absolute;
+    height: 92px;
+}
+
+
+#rotateRow1 {
+    transform: rotate(180deg);
+}
+
+#yourJourney {
+    display: inline-block;
+    padding-top: 160px;
+    padding-left: 180px;
+    background-color: #f9f9f9;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#yourJourneyH2 {
+    font-size: 40px;
+    background: linear-gradient(87.58deg, #1A7FBD 1.01%, #6CBFF2 100.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent; 
+    text-align: center;
+    display: inline-flex;
+    margin: 0 20px 48px 20px;
+}
+
+.yourJourneyImageH2 img{
+    display: flex;
+    justify-content: space-around;
+}
+
+.steps {
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-bottom: 160px;
+}
+
+.stepsContents {
+    width: 320px;
+    height: 70px;
+    color: #fff;    
+    margin-right: 16px;
+    background-color: #1A7FBD;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.imgSteps {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imgSteps img {
+    width: 21px;
+}
+
+.stepText {
+    width: 200px;
+}
+
+#buttonSingIn {
+    background-color: #000;
+    width: 363px;
+    padding: 15px 0 15px 0;
+    color: white;
+    border-radius: 12px;
+    margin-top: 160px;
+    display: flex;
+    transition: 1s;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 337px;
+    margin-bottom: 25px;
+    padding-bottom: 7px;
+}
+
+#buttonSingInIMG {
+    padding-left: 425px;
+    padding-bottom: 165px;
+}
+
+#buttonSingIn p, #buttonSingIn spam {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#buttonSingIn spam {
+    cursor: default;
+}
+
+#buttonSingIn a, #buttonNav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#buttonIMGEnter {
+    width: 35px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+#buttonFooter a {
+    text-decoration: none;
+    color: #000;
+}
+
+#buttonSingIn:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #0000000a;
+    border-color: #1A7FBD;
+}
+
+#targets {
+    margin-top: 60px;
+    text-align: center;
+    flex: 1;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#targets h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.targetsContent {
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding-top: 660px;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.topicsTarget {
+    display: inline-block;
+    justify-content: space-between;
+    width: 330px;
+    height: 230px;
+    background-color: #fbfbfb;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+}
+
+.topicsTarget p {
+    width: 299px;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    align-items: center;
+    padding-left: 27px;
+    font-size: 16px;
+}
+
+.topicsTarget h3 {
+    padding-top: 40px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    margin-top: 150px;
+    height: 340px;
+    flex: 1;
+    background-color: #000;
+    color: #fff;
+}
+
+#logo {
+    padding-top: 96px;
+    padding-left: 250px;
+}
+
+.socialMedias img{
+    width: 16px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+.socialMedias {
+    margin-top: 10px;
+    margin-left: 250px;
+}
+
+.socialMedias p {
+    font-size: 10px;
+    color: #cecece;
+    left: -30px;
+}
+
+#button button{
+    margin-top: 90px;
+    margin-left: 150px;
+    padding:13px 18px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 9px;
+    border-color: #1A7FBD;
+}
+
+#importantsLinks ul {
+    margin-top: 88px;
+}
+
+#importantsLinks li{
+    padding-left: 58px;
+    margin-bottom: 15px;
+}
+
+#importantsLinks a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px;
+}
+
+#rowSeparation {
+    width: 1px;
+    height: 150px;
+    border: 1px solid white;
+    position: flex;
+    margin-top: 90px;
+}
+
+#contact {
+    padding-top: 100px;
+}
+
+#contact h3,  .pContact {
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
